@@ -1,5 +1,5 @@
 // icon:search-24 | Octicons https://primer.style/octicons/ | Github Primer
-import Reac, { ReactElement } from "react";
+import { ReactElement } from "react";
 
 function IconSearchTwentyFour(): ReactElement {
     return (
