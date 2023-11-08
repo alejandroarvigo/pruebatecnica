@@ -3,9 +3,16 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         colors: {
-            gray: "#f6f6f7",
+            gray: "#e5e5e5",
+            lightblue: '#fbfdfe',
+            white: '#FFFFFF'
+
         },
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Manrope'],
+            },
+        },
     },
     plugins: [],
 };

@@ -1,8 +1,6 @@
 import useCardsStore from "../../hooks/useCardsStore";
 import { Card } from "../../types/CardTypes";
 
-
-
 const Form = () => {
     const { addCard } = useCardsStore();
 
@@ -30,7 +28,7 @@ const Form = () => {
             >
                 <div className="max-w-6xl mx-auto w-full">
                     <div className="space-y-2">
-                        <label className="text-sm font-medium text-lg leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                        <label className="text-sm font-medium font-sans leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                             Agregar una frase
                         </label>
                         <textarea

@@ -4,8 +4,8 @@ import Form from './components/Form/Form'
 
 function App() {
   return (
-    <div className='h-screen'>
-      <h1 className='text-4xl text-center my-4'>Lista de Frases</h1>
+    <div className='h-screen bg-lightblue'>
+      <h1 className='text-4xl text-center pt-4 font-sans'>Lista de Frases</h1>
       <Form />
       <FilterList />
     </div>

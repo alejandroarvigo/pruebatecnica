@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({onClickIconHandler, description}) => {
                 >
                     <CloseIcon />
                 </div>
-                <p className="flex-grow break-words min-h-[2.5rem]">
+                <p className="flex-grow break-words min-h-[2.5rem] font-sans">
                     {description}
                 </p>
             </article>

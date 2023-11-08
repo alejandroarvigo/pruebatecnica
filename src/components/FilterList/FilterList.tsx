@@ -55,7 +55,7 @@ const FilterList = () => {
                 </div>
 
                 {cards.length > 0 && (
-                    <div className="flex h-14 px-4 mb-4 items-center border-black border-solid border rounded-lg">
+                    <div className="flex h-14 px-4 mb-4 items-center border-black border-solid border bg-white rounded-lg">
                         <label htmlFor="">
                             <SearchIcon />
                         </label>
@@ -64,7 +64,7 @@ const FilterList = () => {
                             placeholder="Buscar Frase"
                             onChange={(e) => setFilterItem(e.target.value)}
                             value={filterItem}
-                            className="h-full w-[80%] pl-2 text-base flex-1 border-none focus:outline-none "
+                            className="h-full w-[80%] pl-2 text-base flex-1 border-none font-sans focus:outline-none "
                         />
                     </div>
                 )}
