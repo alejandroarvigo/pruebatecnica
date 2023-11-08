@@ -3,12 +3,12 @@ import { Card as CardType } from "../../types/CardTypes";
 import useCardsStore from "../../hooks/useCardsStore";
 import SearchIcon from "../../assets/SearchIcon";
 import Card from "../Card/Card";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
 const animation = {
     initial: { opacity: 0, y: 50, scale: 0.3 },
     animate: { opacity: 1, y: 0, scale: 1 },
-    exit: { opacity: 0, scale: 0.5, y: -50 ,transition: { duration: 0.8} },
+    exit: { opacity: 0, scale: 0.5, y: -50, transition: { duration: 0.8 } },
 };
 
 const FilterList = () => {
@@ -19,19 +19,13 @@ const FilterList = () => {
     const getPhrasesThatIncludeThisWord = (word: string) => {
         return (item: CardType): boolean => {
             if (!word) return true;
-
-            if (word?.split(" ").length > 1) {
-                const words = word.split(" ");
-                return words.every((wordToSearch) =>
-                    item.description
-                        .toLowerCase()
-                        .includes(wordToSearch.toLowerCase())
-                );
-            } else {
-                return item.description
+            
+            const words = word.split(" ");
+            return words.every((wordToSearch) =>
+                item.description
                     .toLowerCase()
-                    .includes(word.toLowerCase());
-            }
+                    .includes(wordToSearch.toLowerCase())
+            );
         };
     };
 
