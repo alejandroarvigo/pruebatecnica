@@ -1,6 +1,6 @@
 En este desarrollo para afrontar la prueba tecnica se utilizo el siguiente stack tecnologico:
 
-https://654bcc620c1a031e562647a9--singular-begonia-2fd4e4.netlify.app/
+https://singular-begonia-2fd4e4.netlify.app/
 En ese link se encuentra deployado para agilizar las pruebas.
 
 * Node v20.9
