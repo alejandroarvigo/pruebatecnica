@@ -1,5 +1,8 @@
 En este desarrollo para afrontar la prueba tecnica se utilizo el siguiente stack tecnologico:
 
+https://654bcc620c1a031e562647a9--singular-begonia-2fd4e4.netlify.app/
+En ese link se encuentra deployado para agilizar las pruebas.
+
 * Node v20.9
 * Tailwind para dar estilos basicos
 * Zustand para poder tener un estado global de la app que permita almacenar en localstorage para no perder data
@@ -22,3 +25,5 @@ Ej: Una card con el siguiente texto "una linda frase ", debe aparecer si en el f
 Notas a tener en cuenta : 
 * Si se desea resetear las cards, se puede borrar el storage(localStorage).
 * El filtro aparece solamente cuando hay cards para filtrar
+* Se agrego el script de test y coverage.
+
