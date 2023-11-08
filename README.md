@@ -26,4 +26,5 @@ Notas a tener en cuenta :
 * Si se desea resetear las cards, se puede borrar el storage(localStorage).
 * El filtro aparece solamente cuando hay cards para filtrar
 * Se agrego el script de test y coverage.
-
+* No se contemplo darkMode (Si estan utilizando alguna extension para dark mode, tanto mobile o desktop pueden verse mal algun estilo)
+* En el desarrollo se le dio importancia a las buenas practicas y a tratar de evitar muchos renders innecesarios.
